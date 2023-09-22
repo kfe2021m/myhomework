@@ -1,8 +1,8 @@
-x=int(input('Введите первое число'))
-y=int(input('Введите второе число'))
-if x>y:
-    print('x','больще чем','y')
-elif x<y:
-    print('y','больще чем','x')
-if x==y:
-    print('x=y')
+num1=float(input('Введите первое число'))
+num2=float(input('Введите второе число'))
+if num1>num2:
+    print('1-ое','больше чем','2-ое')
+elif num1<num2:
+    print('2-ое','больше чем','1-ое')
+if num1==num2:
+    print('1-ое=2-ое')
