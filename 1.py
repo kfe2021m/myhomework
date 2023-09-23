@@ -1,9 +1,8 @@
-a = int(input())
-b = int(input())
-c = int(input())
-d = int(input())
-f = int(input())
-if f - d == 0:
-    print('делить на 0 нельзя!')
+a = float(input())
+b = float(input())
+if  a > b:
+    print('pervoe bolshe')
+elif b > a:
+    print('vtoroe bolshe')
 else:
-    print((a * b - c) / (f -d)) 
+    print('ony ravni')
