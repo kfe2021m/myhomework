@@ -5,4 +5,4 @@ if  a > b:
 elif b > a:
     print('vtoroe bolshe')
 else:
-    print('ony ravni')
+    print('ony ravnyi')
