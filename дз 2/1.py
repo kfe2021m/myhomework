@@ -1,6 +1,6 @@
 a = input('Введите:')
-list = []
-while a!='':
-    list.append(a)
+lst = []
+while a != '':
+    lst.append(a)
     a = input('Введите:')
-print(list)
+print(lst)

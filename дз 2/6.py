@@ -9,5 +9,5 @@ for x in s:
 if sch < k:
     print('Нет такой')
 else:
-    print(a[k-1])
+    print(a[k - 1])
         

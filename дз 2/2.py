@@ -1,8 +1,8 @@
-list = []
+lst = []
 a = input('Введите:')
 while a != '':
-    list.append(a)
+    lst.append(a)
     a = input('Введите:')
-list = sorted(list)[::-1]
-l = ''.join(list)
+lst = sorted(lst)[::-1]
+l = ''.join(lst)
 print(l)
