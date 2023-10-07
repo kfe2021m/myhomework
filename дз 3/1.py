@@ -4,4 +4,4 @@ def f(n):
         s.append(n)
         n=input()
     return s
-print(f(input()))
+print(f(input('Введите:')))
