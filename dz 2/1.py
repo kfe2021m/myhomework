@@ -1,7 +1,7 @@
 lst = []
 while True:
     a = input('Введите:')
-    if a == '':
+    if not a:
         break
     lst.append(a)
 print(lst)

@@ -6,6 +6,4 @@ for x in s:
         sch += 1
         if sch == k:
             print(x, 'ваше число')
-
-
-        
+            break      
