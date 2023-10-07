@@ -1,6 +1,7 @@
-a = input('Введите:')
 lst = []
-while a != '':
-    lst.append(a)
+while True:
     a = input('Введите:')
+    if a == '':
+        break
+    lst.append(a)
 print(lst)
