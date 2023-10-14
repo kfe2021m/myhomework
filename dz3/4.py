@@ -1,3 +1,4 @@
+from collections import Counter
 def f(n):
     a = []
     while n:
@@ -5,9 +6,14 @@ def f(n):
         n = input()
     lst = []
     print('Элемент | Частота')
-    for x in a:
-        if x not in lst:
-            print(x, '|', a.count(x))
-            lst.append(x)
+    c = Counter(a)
+    return c
+    #for x in a:
+     #   if x not in lst:
+      #      print(x, '|', a.count(x))
+       #     lst.append(x)
+
+
 n = input()
-print(f(n))
+v=f(n)
+print(*[f'{i} | {v[i]}' for i in v], sep='\n')

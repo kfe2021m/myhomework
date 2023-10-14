@@ -1,12 +1,13 @@
-n = (int(input('Ввести:')))
 def f(n):
     if n in (1, 2, 12):
-        print('Зима')
+        return 'Зима'
     elif n in (3, 4, 5):
-        print('Весна')
+        return 'Весна'
     elif n in (6, 7, 8):
-        print('Лето')
+        return 'Лето'
     elif n in (9, 10, 11):
-        print('Осень')
-f(n)
+        return 'Осень'
 
+
+n = int(input('Ввести:'))
+f(n)
