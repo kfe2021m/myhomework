@@ -1,4 +1,4 @@
-n=(int(input('Ввести:')))
+n = (int(input('Ввести:')))
 def f(n):
     if n in (1, 2, 12):
         print('Зима')
