@@ -1,19 +1,11 @@
 from collections import Counter
-def f(n):
-    a = []
-    while n:
-        a.append(n)
-        n = input()
-    lst = []
+from ty import f
+
+def ff(n):
     print('Элемент | Частота')
-    c = Counter(a)
-    return c
-    #for x in a:
-     #   if x not in lst:
-      #      print(x, '|', a.count(x))
-       #     lst.append(x)
+    return Counter(n)
 
 
-n = input()
-v=f(n)
+n = f()
+v = ff(n)
 print(*[f'{i} | {v[i]}' for i in v], sep='\n')
