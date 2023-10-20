@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./dz 3",
+        "./dz 4",
+        "./dz4"
+    ]
+}
