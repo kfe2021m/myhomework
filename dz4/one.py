@@ -1,9 +1,11 @@
-def f(x):
-    a = []
-    while x:
-        a.append(x)
-        x = input("Сам список: ")
-    return a
+#def f(x):
+    #a = []
+   # while x:
+  #      a.append(x)
+ #       x = input("Сам список: ")
+#    return a
+from dz_3.ty import f
+
 
 def sdvig(a, y):
     y %= len(a)

@@ -6,5 +6,6 @@ def f(n):
     return s
 
 
-n = input()
-print(f(input('Введите:')))
+if __name__ == '__main__':
+    n = input()
+    print(f(input('Введите:')))
