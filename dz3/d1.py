@@ -1,4 +1,5 @@
 def f(n):
+#n = input()
     s = []
     while n:
         s.append(n)
@@ -6,5 +7,5 @@ def f(n):
     return s
 
 
-n = input()
-print(f(input('Введите:')))
+if __name__ == '__main__':
+    print(f(input('Введите:')))

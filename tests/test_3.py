@@ -1,5 +1,24 @@
+import pytest
 from dz4.d3 import f
-def test_f():
-    assert f([34, 'Hello, world!', False])
-    assert f('12345')
-    assert not f('1113')
+
+
+@pytest.mark.parametrize(
+    ('x'),
+    [
+        [True, 1],
+        [555]
+    ]
+)
+def test(x):
+    assert f(x) is True
+
+
+@pytest.mark.parametrize(
+    ('x'),
+    [
+        [1, 1],
+        [1, 2, 5, 1]
+    ]
+)
+def testf(x):
+    assert f(x) is False

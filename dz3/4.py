@@ -1,5 +1,5 @@
 from collections import Counter
-from ty import f
+from d1 import f
 
 def ff(n):
     print('Элемент | Частота')
