@@ -1,7 +1,7 @@
 from dz3.d1 import f
 
 
-def swap(pl: list, k: int) -> list:
+def swap(pl, k) :
     k %= len(pl)
     return pl[-k:] + pl[:-k]
 
