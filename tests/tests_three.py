@@ -15,7 +15,7 @@ def test(x):
     assert f(x) is True
 
 
-@ByteString.mark.parametrize(
+@pytest.mark.parametrize(
     ('x'),
     [
         [1, 1],
