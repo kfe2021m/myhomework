@@ -1,4 +1,4 @@
-from prosh import f
+from dz3.d1 import f
 
 
 def swap(pl: list, k: int) -> list:
