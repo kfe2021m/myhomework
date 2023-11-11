@@ -1,6 +1,4 @@
 def binary_search(sequence, target):
-    if target not in sequence:
-        return None
     low, high = 0, len(sequence) - 1
     result = None
     while low <= high:
