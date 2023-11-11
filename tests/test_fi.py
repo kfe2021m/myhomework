@@ -35,7 +35,8 @@ def test_binary_search(sequence, target, expected):
     ([1, 2, 3, 4, 5], 7),
     ([1, 2, 3, 4, 5, 6], 7),
     ([1, 2, 3, 4, 5], 6),  
-    ([], 3)  
+    ([], 3),
+    ([1],0)  
 ])
 def test_binary_search_none(sequence, target):
     assert binary_search(sequence, target) is None
