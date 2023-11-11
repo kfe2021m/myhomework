@@ -12,4 +12,4 @@ def binary_search(sequence, target):
             low = mid + 1
     return result
 
-https://github.com/lec0baby/hardhw/blob/main/hardhw/dz5/ex5_1.py
+
