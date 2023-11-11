@@ -12,3 +12,4 @@ def binary_search(sequence, target):
 if __name__=='__main__':
     print(binary_search([-1,1,1,1,1,1,9],9))
 
+https://github.com/lec0baby/hardhw/blob/main/hardhw/dz5/ex5_1.py
