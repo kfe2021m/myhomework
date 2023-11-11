@@ -1,7 +1,7 @@
 from dz3.d1 import f
 
 
-def binp(place :list, num):
+def binp(place, num):
     if place == []:
         return
     mid = len(place) // 2
