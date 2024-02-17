@@ -9,10 +9,10 @@ class Time:
         self.minutes = int(input("Введите минуты: "))
         self.seconds = int(input("Введите секунды: "))
 
-    def display_time(self):
-        print(f"Время: {self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}")
+    def __str__(self):
+        return f"Время: {self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}"
 
-# Пример использования
+
 t = Time()
 t.input_time()
-t.display_time()
+print(t)
