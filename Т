@@ -1,0 +1,21 @@
+from time_class import Time
+
+def test_input_time(monkeypatch):
+    t = Time()
+    user_input = ["5", "30", "45"]
+
+    def mock_input(prompt):
+        return user_input.pop(0)
+
+    monkeypatch.setattr('builtins.input', mock_input)
+    t.input_time()
+
+    assert t.hours == 5
+    assert t.minutes == 30
+    assert t.seconds == 45
+
+def test_display_time(capsys):
+    t = Time(12, 5, 30)
+    t.display_time()
+    captured = capsys.readouterr()
+    assert captured.out.strip() == "Время: 12:05:30"
