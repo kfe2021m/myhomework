@@ -13,6 +13,6 @@ class Time:
         return f"Время: {self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}"
 
 
-t = Time()
-t.input_time()
-print(t)
+# t = Time()
+# t.input_time()
+# print(t)
