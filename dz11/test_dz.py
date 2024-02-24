@@ -1,4 +1,4 @@
-from dz8.dz import Time
+from dz11.dz import Time
 
 def test_input_time(mocker):
     mocker.patch('builtins.input', return_value = 1)
