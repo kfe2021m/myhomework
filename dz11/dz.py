@@ -1,22 +1,22 @@
 class Time:
-    def __init__(self, hours = 0, minutes = 0, seconds = 0):
-        self.hours = hours
-        self.minutes = minutes
-        self.seconds = seconds
+    def __init__(self, h = 0, m = 0, s = 0):
+        self.h = h
+        self.m = m
+        self.s = s
 
     def input_time(self):
         while True:
-            self.hours = int(input("Введите часы: "))
-            self.minutes = int(input("Введите минуты: "))
-            self.seconds = int(input("Введите секунды: "))
-            if self.hours > 23 or self.minutes > 59 or self.seconds > 59 or self.hours < 0 or self.minutes < 0 or self.seconds < 0:
+            self.h = int(input("Введите часы: "))
+            self.m = int(input("Введите минуты: "))
+            self.s = int(input("Введите секунды: "))
+            if self.h > 23 or self.m > 59 or self.s > 59 or self.h < 0 or self.m < 0 or self.s < 0:
                 print('ошибка')
             else:
                 break
             
 
     def __str__(self):
-        return f"{self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}"
+        return f"{self.h:02d}:{self.m:02d}:{self.s:02d}"
 
 # t = Time()
 # t.input_time()
