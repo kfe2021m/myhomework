@@ -17,6 +17,6 @@ class Time:
     def __str__(self):
         return f"{self.h:02d}:{self.m:02d}:{self.s:02d}"
 
-# t = Time()
-# t.input_time()
-# print(t)
+t = Time()
+t.input_time()
+print(t)
